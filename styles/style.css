@@ -8,6 +8,7 @@
     --ciano-color: #00fff7;
     --ciano-color-transluced: #00fff781;
     --mini-text-color: #8bacda;
+    --mini-text-color-line: #8bacda70;
 }
 
 * {
@@ -117,7 +118,8 @@ main {
     display: flex;
     font-weight: 400;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--mini-text-color-line);
+    padding-bottom: 1rem;
 }
 
 #time {
@@ -129,13 +131,6 @@ main {
 
 #time img {
     margin-right: 10px;
-}
-
-hr {
-    border: none;
-    box-shadow: inset 0 0 0 1px var(--mini-text-color);
-    height: 1px;
-    opacity: .2;
 }
 
 #profile-container {
